@@ -6,20 +6,14 @@ from PyQt5.QtCore import QThread
 import speech_recognition as sr
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
-from Business.crypto_assistant import crypto_analysis_assistant
-from Business.stock_assistant import stock_analysis_app
-from Professional.cover_letter import create_cover_letter
-from Recommendations.business_recommendation import business_recommendation
-from Recommendations.movie_recommendation import movie_recommendation_program
-from Recommendations.recipe_recommendation import recipe_recommendation_system
-from Recommendations.series_recommendation import series_recommendation_program
-from Security.fuzzing import automated_fuzzer
-from Security.port_scanner import perform_port_scan
-from Professional.resume_maker import create_resume
-from Security.securityscanner import perform_security_scan
+
+# from Security.fuzzing import automated_fuzzer
+# from Security.port_scanner import perform_port_scan
+# from Professional.resume_maker import create_resume
+# from Security.securityscanner import perform_security_scan
 from howdyChitChat import howdyChatBot
 from HOWDYmainfileGUI import Ui_HOWDYmainUI
-from Security.url_checker import url_threat_checker
+# from Security.url_checker import url_threat_checker
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
